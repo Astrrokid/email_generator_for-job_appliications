@@ -1,0 +1,7 @@
+chromadb
+langchain-groq
+beautifulsoup4
+pandas
+python-dotenv
+langchain
+langchain-community
