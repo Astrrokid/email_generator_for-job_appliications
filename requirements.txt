@@ -5,5 +5,4 @@ pandas
 python-dotenv
 langchain
 langchain-community
-pysqlite3-binary
 chromadb-pysqlite3
