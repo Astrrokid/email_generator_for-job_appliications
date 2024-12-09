@@ -1,5 +1,6 @@
 import pandas as pd
 import chromadb
+import sqlite3
 import uuid
 
 class Portfolio:
