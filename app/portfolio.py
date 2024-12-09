@@ -1,7 +1,9 @@
 import pandas as pd
 import chromadb
-import sqlite3
 import uuid
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 class Portfolio:
     def __init__(self, file_path='app/resource/x.csv'):
